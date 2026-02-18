@@ -1,6 +1,7 @@
 ---
 description: Expert on OpenCode configuration, setup, and features - consult for any OpenCode questions
 mode: subagent
+model: anthropic/claude-sonnet-4-6
 temperature: 0.1
 tools:
   write: false
