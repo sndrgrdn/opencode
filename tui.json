@@ -1,0 +1,5 @@
+{
+  "$schema": "https://opencode.ai/tui.json",
+  "theme": "kanagawa",
+  "scroll_acceleration": false
+}

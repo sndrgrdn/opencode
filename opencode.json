@@ -11,7 +11,8 @@
       "~/.local/share/mise/**": "allow",
       "~/.dotfiles/**": "allow",
       "~/Developer/**": "allow",
-      "/tmp/side-quest-*/**": "allow"
+      "/tmp/side-quest-*/**": "allow",
+      "~/.agents/**": "allow"
     },
     "read": {
       "~/.ssh/**": "deny"
@@ -41,6 +42,5 @@
         "opensrc-mcp"
       ]
     }
-  },
-  "theme": "kanagawa"
+  }
 }
