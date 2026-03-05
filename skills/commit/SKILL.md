@@ -163,3 +163,4 @@ Reason: Caused performance regression in production.
 - Use a rebase workflow: pare features into functional steps, or squash into a single clean commit
 - When squashing via GitHub UI, rewrite the auto-generated message to follow these conventions
 - Breaking changes must start with `BREAKING CHANGE:` followed by a space or two newlines in the footer
+- Respect repository safety rules: do not amend/rewrite history unless explicitly requested

@@ -76,6 +76,7 @@ Use this structure for PR descriptions (ignoring any repository PR templates):
 - Links to relevant issues or tickets
 - Context that isn't obvious from the code
 - Notes on specific areas that need careful review
+- A concise testing note (for example: "Tested: `bin/rspec ...`" or "Testing not run (docs-only change)") without adding a dedicated "Test plan" section
 
 ### Step 4: Create the PR
 
