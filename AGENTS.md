@@ -11,12 +11,14 @@ Work style: telegraph; noun-phrases ok; drop grammar; min tokens.
 - No destructive ops (`reset --hard`, `clean`, `rm`) unless explicit.
 - No amend unless asked.
 - No manual stash; keep unrelated WIP untouched.
+- Commit creation: ALWAYS load and follow `commit` skill, even for very small/simple commits.
 - Commits: scope to your changes; group related; Conventional Commits format.
 
 ## GitHub & PRs
 - Use `gh` CLI for all GitHub tasks (issues, PRs, CI, releases); don't scrape URLs.
 - Given issue/PR URL: `gh issue view <url>` or `gh pr view <url> --comments`.
 - PR review: delegate to `review` agent.
+- PR creation: ALWAYS load and follow `create-pr` skill, even for very small/simple PRs.
 - PR creation: summarize scope; note testing; mention user-facing changes.
 
 ## Code Quality
