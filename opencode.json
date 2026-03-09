@@ -7,6 +7,7 @@
     "external_directory": {
       "*": "ask",
       "~/.config/opencode/**": "allow",
+      "~/.local/share/opencode/**": "allow",
       "~/.local/share/opensrc/repos/**": "allow",
       "~/.local/share/mise/**": "allow",
       "~/.dotfiles/**": "allow",
