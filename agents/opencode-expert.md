@@ -1,8 +1,7 @@
 ---
 description: Expert on OpenCode configuration, setup, and features - consult for any OpenCode questions
 mode: subagent
-model: anthropic/claude-sonnet-4-6
-temperature: 0.1
+model: opencode-go/kimi-k2.5
 tools:
   write: false
   edit: false
