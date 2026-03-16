@@ -24,8 +24,8 @@
     }
   },
   "plugin": [
-    "opencode-anthropic-auth@latest",
-    "@sndrgrdn/opencode-autoresearch"
+    "@sndrgrdn/opencode-autoresearch@latest",
+    "@plannotator/opencode@latest"
   ],
   "mcp": {
     "context7": {
