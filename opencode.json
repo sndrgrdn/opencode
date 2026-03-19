@@ -24,8 +24,7 @@
     }
   },
   "plugin": [
-    "@sndrgrdn/opencode-autoresearch@latest",
-    "@plannotator/opencode@latest"
+    "@sndrgrdn/opencode-autoresearch@latest"
   ],
   "mcp": {
     "context7": {
