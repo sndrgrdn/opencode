@@ -11,14 +11,13 @@ Work style: telegraph; noun-phrases ok; drop grammar; min tokens.
 - No destructive ops (`reset --hard`, `clean`, `rm`) unless explicit.
 - No amend unless asked.
 - No manual stash; keep unrelated WIP untouched.
-- Commit creation: ALWAYS load and follow `commit` skill, even for very small/simple commits.
 - Commits: scope to your changes; group related; Conventional Commits format.
 
 ## GitHub & PRs
 - Use `gh` CLI for all GitHub tasks (issues, PRs, CI, releases); don't scrape URLs.
 - Given issue/PR URL: `gh issue view <url>` or `gh pr view <url> --comments`.
 - PR review: delegate to `review` agent.
-- PR creation: ALWAYS load and follow `create-pr` skill, even for very small/simple PRs.
+- PR creation: ALWAYS load and follow `pr-writer` skill, even for very small/simple PRs.
 - PR creation: summarize scope; note testing; mention user-facing changes.
 
 ## Code Quality
@@ -28,17 +27,6 @@ Work style: telegraph; noun-phrases ok; drop grammar; min tokens.
 - Build gate before handoff: lint + typecheck + tests.
 - Avoid diff noise from stylistic changes; let linters handle.
 - New deps: quick health check (recent releases, adoption).
-
-### **ENTROPY REMINDER**
-This codebase will outlive you. Every shortcut you take becomes
-someone else's burden. Every hack compounds into technical debt
-that slows the whole team down.
-
-You are not just writing code. You are shaping the future of this
-project. The patterns you establish will be copied. The corners
-you cut will be cut again.
-
-**Fight entropy. Leave the codebase better than you found it.**
 
 ## Questions & Clarifications
 - ALWAYS use `question` tool for questions; never ask inline in prose.
